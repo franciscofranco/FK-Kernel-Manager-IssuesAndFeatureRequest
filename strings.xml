@@ -89,7 +89,7 @@
     <string name="power_saving_description">It lowers the CPU, GPU, input boost frequency clocks, and changes some of the governor parameters to lower spikes to higher frequencies to save some precious juice during device usage</string>
     <string name="power_saving_title">Power-saving</string>
     <string name="balance_title">Balance</string>
-    <string name="balance_description">Loads the default FrancoKernel settings. It\'s a safe harbour and it\'ll yield you the best results without degrading performance.</string>
+    <string name="balance_description">Loads the default FK settings. It\'s a safe harbour and it\'ll yield you the best results without degrading performance.</string>
     <string name="performance_title">Performance</string>
     <string name="performance_description">GPU runs on it\'s maximum clock all the time, input boost duration and frequency clock are increased, and some of the governor parameters are changed for more throughput. Buttery smooth!</string>
     <string name="new_profile_hint">Profile name</string>
