@@ -10,7 +10,7 @@
     <string name="support_title">Info</string>
     <string name="yes">Yes</string>
     <string name="auto_flash">Auto-flash</string>
-    <string name="download_zip">Download zip</string>
+    <string name="download_zip">Download</string>
     <string name="changelog_title">Changelog</string>
     <string name="max_cpu_freq">Max CPU frequency</string>
     <string name="min_cpu_freq">Min CPU frequency</string>
@@ -99,7 +99,7 @@
     <string name="rgb_summary">Tune your display color temperature.</string>
     <string name="performance_profiles_empty_view">Your kernel doesn\'t support this feature. Ask your kernel maintainer to add support for it. Tweet me @franciscof_1990 and I can help the maintainer</string>
     <string name="new_kernel">New FrancoKernel is available to download!</string>
-    <string name="new_kernel_description">%1$s is ready for download</string>
+    <string name="new_kernel_description">%1$s is ready for download!</string>
     <string name="performance_profiles_not_supported_widget">Your device\'s kernel does not support this feature or your root permission for this app wasn\'t properly given… can\'t really tell!</string>
     <string name="temp_not_supported">CPU temperature is not supported</string>
     <string name="cpu_temperature_type_summary_fahrenheit">Fahrenheit (ºF)</string>
@@ -147,7 +147,7 @@
     <string name="cooler">Cooler</string>
     <string name="warmer">Warmer</string>
     <string name="temp_threshold_hmp">Cluster #2 offline thermal threshold</string>
-    <string name="error_anykernel_flash">There was an error trying to flash the kernel.¯\_(ツ)_/¯ </string>
+    <string name="error_anykernel_flash">There was an error trying to flash the kernel.¯\_(ツ)_/¯</string>
     <string name="copied_to_clipboard">Copied to the clipboard</string>
     <string name="automation_summary">1. Open Tasker and slide to the \"Tasks\" tab\n2. Create a new task and give it a name. Ex.: \"CPU - Games\"\n3. Add the \"Send Intent\" action which resides inside \"System\" group\n4. Inside \"Action\" paste the intent you copy from below\n5. Set the package name to \"com.franco.kernel\" (without the quotes)\n6. Save the task and that\'s it!</string>
     <string name="options">Options</string>
@@ -155,7 +155,7 @@
     <string name="little_cluster">Cluster #1</string>
     <string name="big_cluster">Cluster #2</string>
     <string name="auto_flashing">Flashing the kernel…</string>
-    <string name="magical_enhancements_incoming">Magical enhancements incoming</string>
+    <string name="magical_enhancements_incoming">Magical enhancements incoming!</string>
     <string name="kernel_download_error">Some error occurred when trying to download the kernel - can\'t pinpoint the cause - sorry!</string>
     <string name="wifi_status">Wi-Fi status</string>
     <string name="android_battery_saver">Android Battery Saver</string>
@@ -205,7 +205,7 @@
     <string name="sunlight">Sunlight</string>
     <string name="shadow">Shadow</string>
     <string name="automatic_hbm">Auto high brightness mode</string>
-    <string name="night_shift_not_supported">Night Shift isn\'t supported on your device/kernel configuration</string>
+    <string name="night_shift_not_supported">Night Shift isn\'t supported by your device/kernel configuration</string>
     <string name="hbm_not_supported">High brightness mode isn\'t supported by your device/kernel configuration</string>
     <string name="gpu_governor">GPU governor</string>
     <string name="android_battery_saver_title">Android Battery Saver</string>
@@ -213,7 +213,7 @@
     <string name="battery_labs_title">Tips</string>
     <string name="battery_life_labs_description">A set of simple suggestions &amp; hints to improve your device\'s battery life.\nClicking the cards will expand them showing useful information.\nThe overflow menu gives you options for the tips, or direct link to those sections</string>
     <string name="cpu_underclock">Underclock the CPU</string>
-    <string name="cpu_underclock_description">Lowering the CPU clocks will greatly increase your screen on time at the expense of performance. Most of the device\'s operations aren\'t really CPU intensive so lowering it at least 25% is enough to greatly reduce power consumption.\n\nThere are several instances in which this will show the device as \"underclocked\", even though you haven\'t applied this previously, the most notable being thermal throttling (if this is the case you won\'t be able to restore to the default clocks, your device handles it for you automatically), or your ROM/kernel has underclocked the CPU by default.</string>
+    <string name="cpu_underclock_description">Lowering the CPU clocks will greatly increase your screen on time at the expense of performance. Most of the device\'s operations aren\'t really CPU intensive, so lowering it at least 25% is enough to greatly reduce power consumption.\n\nThere are several instances in which this will show the device as \"underclocked\", even though you haven\'t applied this previously, the most notable being thermal throttling (if this is the case you won\'t be able to restore to the default clocks, your device handles it for you automatically), or your ROM/kernel has underclocked the CPU by default.</string>
     <string name="apply">Apply</string>
     <string name="apply_percentage">Apply %1$d%% lower clocks</string>
     <string name="gpu_underclock">Underclock the GPU</string>
@@ -221,7 +221,7 @@
     <string name="performance_profile_power_saving">Power-saving profile</string>
     <string name="performance_profile_power_saving_description">Tightly integrated with FK. This profile changes the CPU, GPU, input boost frequency and duration, and, sometimes (depending on the device), it also changes governor parameters. This profile is very aggressive and you might experience some jank here and there, but the reduction of power consumption during screen on will be immense</string>
     <string name="auto_sync">Disable auto-sync</string>
-    <string name="auto_sync_description">Disabling automatic background syncing has two sides of the coin. For one, disabling it will certainly reduce needlessly idle wakeups (when doze isn\'t active), but then you\'ll lose some features, such as notifications for new e-mails when they arrive on your inbox, and other pieces that constantly backup/query online services. It really depends on your usage and needs</string>
+    <string name="auto_sync_description">Disabling automatic background syncing has two sides of the same coin. For one, disabling it will certainly reduce needlessly idle wakeups (when doze isn\'t active), but then you\'ll lose some features, such as notifications for new e-mails when they arrive on your inbox, and other pieces that constantly backup/query online services. It really depends on your usage and needs</string>
     <string name="per_app_profiles">Create Per-app profiles</string>
     <string name="per_app_profiles_description">If you want to go deep into the rabbit hole, you can create custom power profiles to be applied on a per-app basis.\nSocial network apps, or Maps, news, or generally anything heavily text based without fancy elements or crazy animations will work fine on a very restrictive power profile. Since these can be applied for each app, you can leave your system defaults on all the time, and then when you open an app with a profile bound to it, let\'s say Messages, the profile will kick in and apply your settings while you\'re using it. As soon as you leave the app, the settings will go back to defaults.\nIt\'s very powerful and you can create a very unique and personal experience</string>
     <string name="naptime_description">With Naptime, by toggling in the \"Aggressive doze\" optio, Doze will kick in right after you screen off AND it will disable your sensors so that it won\'t kick you out from Doze mode if you move around. When you turn your screen on – everything goes back to normal. It\'s just like magic, providing you an amazing idle batter life</string>
@@ -278,8 +278,8 @@
     <string name="special_contributors">Special contributors</string>
     <string name="osm0sis_summary">Wrote the current version of the auto-flasher feature (probably the only implementation in the world) and developer of the popular AnyKernel2 flashing mechanism. Without his contributions, this app\'s primary feature wouldn\'t be possible</string>
     <string name="hbm_description">High brightness mode allows the display\'s brightness to go above the maximum stock value.\nThis is particularly useful in direct sunlight, although it shouldn\'t be used for long periods since it increases the chance for burn-in on OLED displays and consumes way more power</string>
-    <string name="auto_hbm_description">This feature will automatically analyze the environment ambient light and activate High brightness mode if your surroundings are brighter than the threshold you set. It turns off if the light is below it</string>
-    <string name="rationale_write_storage_permission">This app needs permission to write into the internal sdcard to function properly</string>
+    <string name="auto_hbm_description">This feature will automatically analyze the environment ambient light and activate High brightness mode if your surroundings are brighter than the threshold you set. It turns off if the current light value is below it</string>
+    <string name="rationale_write_storage_permission">This app needs permission to write into the internal storage to function properly</string>
     <string name="night_shift_channel">Controls how Night Shift goes on or off</string>
     <string name="per_app_profiles_channel">Detects which app is in the foreground and applies your Per-app profiles accordingly</string>
     <string name="location_permission_rationale">Location permission is required to figure out the approximate sunset and sunrise times.\nIt\'s a very low power location request, only once every sunset/sunrise transition.</string>
@@ -351,7 +351,7 @@
     <string name="accessibility_service_description">Foreground App Detection\n\nThis is used to detect which app is running in the foreground at any given time to automate tasks through Per-app profiles feature. Automation profiles are built by the users on a per-app basis.\n\nThis service only listens for typeWindowStateChanged and it can\'t retrieve any window content.\n\nFor transparency purposes, I\'ll provide the source code for this feature if asked.</string>
     <string name="night_shift_auto_mode">Automatic mode</string>
     <string name="custom_timers">Custom timers</string>
-    <string name="sunset_sunrise">Sunset to sunrise</string>
+    <string name="sunset_sunrise">From sunset to sunrise</string>
     <string name="tcp_congestion_algorithm">TCP congestion algorithm</string>
     <string name="supporters_summary">Contribute to help me keep up with server costs and support more devices. You\'ll win a nice medal, 4 custom wallpapers and my forever gratitude! 🙌</string>
     <string name="support">Support!</string>
