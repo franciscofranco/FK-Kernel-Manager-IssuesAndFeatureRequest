@@ -43,7 +43,7 @@
     <string name="hotplug_control">Hotplug Control</string>
     <string name="set_on_boot_msg">Set on boot: %1$s</string>
     <string name="md5_error">Auto-flash aborted!</string>
-    <string name="md5_error_msg">The MD5 doesn\'t match. Please, re-download the zip.</string>
+    <string name="md5_error_msg">The MD5 doesn\'t match. Please, re-download the kernel.</string>
     <string name="auto_flash_success_auto_reboot">Auto-flashed successfully! Rebooting…</string>
     <string name="auto_flash_success">Auto-flashed successfully!</string>
     <string name="download_complete">Download is complete!</string>
