@@ -21,7 +21,7 @@
     <string name="auto_flash_and_reboot">Flash &amp; reboot</string>
     <string name="misc">Misc</string>
     <string name="auto_reboot_summary">Automatically reboot after a successful flash</string>
-    <string name="new_kernel_notify_title">New release auto-notify</string>
+    <string name="new_kernel_notify_title">New kernel release auto-notify</string>
     <string name="new_kernel_notify_summary">A notification fires when a new FK release is available to flash. Checks once per day in the background</string>
     <string name="cpu_temperature">CPU temperature</string>
     <string name="download_path_title">ZIPs download directory</string>
