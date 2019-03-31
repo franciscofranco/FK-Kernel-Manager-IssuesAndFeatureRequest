@@ -464,7 +464,7 @@
     <string name="core_control_title">Cores control</string>
     <string name="online">Online</string>
     <string name="offline">Offline</string>
-    <string name="cant_offline_cpu0">You can\'t put offline CPU0 because it\'s essential and vital for device\'s functions</string>
+    <string name="cant_offline_cpu0">You can\'t put CPU0 offline because it\'s essential and vital for device\'s functions</string>
     <string name="cores_control_tip">Turning off cores is a quick and dirty way to save some power. Be wary, the device will likely suffer some performance loss exponentially to the amount of cores going offline.\nAlso some chips will have restrictions. For example, on big.Little devices the big cluster will always need one core online</string>
     <string name="cpu">cpu</string>
     <string name="cpu_stats">cpu stats</string>
