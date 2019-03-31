@@ -295,7 +295,7 @@
     <string name="which_wallpaper_option_home_screen_and_lock_screen">Home screen and lock screen</string>
     <string name="wallpaper_instructions">Set wallpaper</string>
     <string name="set_wallpaper">Set wallpaper</string>
-    <string name="new_kernel_available">New release available notification</string>
+    <string name="new_kernel_available">New FK release available notification</string>
     <string name="cpu_cores">CPU cores</string>
     <string name="cpufreq_stats">CPU frequencies stats</string>
     <string name="disk_io_title">Disk Read &amp; Writes</string>
