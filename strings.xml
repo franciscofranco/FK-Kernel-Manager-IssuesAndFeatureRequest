@@ -460,7 +460,7 @@
     <string name="show_stdout_summary">Dialog with an auto-updating flashing log. Particularly useful for debugging</string>
     <string name="show_stdout_title">Show logs when flashing</string>
     <string name="show_amp_voltage_title">Show charging amperage and wattage</string>
-    <string name="show_amp_voltage_tip">Amperage and voltage depends on the charger &amp; cable that you\'re using. These charging values can also be affected by your usage, device heat and/or battery temperature. This feature simply reads the values from the Kernel, but they might not a 100% accurate representation of the real electricity current, so take these as an estimation.\nIf for some reason these stats don\'t show up, then it\'s likely your device has different paths. Contact me and we\'ll figure it out together</string>
+    <string name="show_amp_voltage_tip">Amperage and voltage depends on the charger &amp; cable that you\'re using. These charging values can also be affected by your usage, device heat and/or battery temperature. This feature simply reads the values from the kernel, but they might not a 100% accurate representation of the real electricity current, so take these as an estimation.\nIf for some reason these stats don\'t show up, then it\'s likely your device has different paths. Contact me and we\'ll figure it out together</string>
     <string name="core_control_title">Cores control</string>
     <string name="online">Online</string>
     <string name="offline">Offline</string>
