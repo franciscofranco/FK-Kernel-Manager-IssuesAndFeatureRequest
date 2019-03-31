@@ -91,7 +91,7 @@
     <string name="balance_title">Balance</string>
     <string name="balance_description">Loads the default FK settings. It\'s a safe harbour and it\'ll yield you the best results without degrading performance.</string>
     <string name="performance_title">Performance</string>
-    <string name="performance_description">GPU runs on it\'s maximum clock all the time, input boost duration and frequency clock are increased, and some of the governor parameters are changed for more throughput. Buttery smooth!</string>
+    <string name="performance_description">The GPU runs on maximum clock all the time, input boost duration and frequency clock are increased, and some of the governor parameters are changed for more throughput. Buttery smooth!</string>
     <string name="new_profile_hint">Profile name</string>
     <string name="app_info">Version: %1$s (%2$d)\nCopyright © 2011–2018\nFrancisco Franco</string>
     <string name="social">Follow me!</string>
