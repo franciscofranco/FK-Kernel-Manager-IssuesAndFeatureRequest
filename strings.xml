@@ -93,7 +93,7 @@
     <string name="performance_title">Performance</string>
     <string name="performance_description">The GPU runs on maximum clock all the time, input boost duration and frequency clock are increased, and some of the governor parameters are changed for more throughput. Buttery smooth!</string>
     <string name="new_profile_hint">Profile name</string>
-    <string name="app_info">Version: %1$s (%2$d)\nCopyright © 2011–2018\nFrancisco Franco</string>
+    <string name="app_info">Version: %1$s (%2$d)\nCopyright © 2011–2019\nFrancisco Franco</string>
     <string name="social">Follow me!</string>
     <string name="rgb_title">RGB adjustments</string>
     <string name="rgb_summary">Tune your display color temperature.</string>
@@ -511,7 +511,7 @@
     <string name="set_gpu_max_freq">Change GPU max freq</string>
     <string name="gpu_max_freq_description">Same as with the CPU max frequency, the GPU works exactly the same way. If what you\'re doing something that isn\'t graphically intensive, there\'s no real need to allow the GPU to scale so high and use more power.\n\nGeneral rule of thumb: you can set a lower than max GPU freq unless you\'re applying this profile to a game ✨</string>
     <string name="device_settings_title">Device settings</string>
-    <string name="device_settings_descriptions">You\'ll likely don't need a WiFi or GPS when reading a book through the Kindle app, or you want to use the phone in a certain orientation specifically for that one app.\n\nAll the settings that you\'ll choose below are applied when the app you\'ve selected is opened.\n\nTo proceed and save this profile, you must choose settings for WiFi, GPS, display orientation and Android battery saver and they\'ll appear below sequentially. If you don\'t want to change any of these settings, just leave them at \"Unchanged\" and you\'re good to go 👍</string>
+    <string name="device_settings_descriptions">You\'ll likely don\'t need a WiFi or GPS when reading a book through the Kindle app, or you want to use the phone in a certain orientation specifically for that one app.\n\nAll the settings that you\'ll choose below are applied when the app you\'ve selected is opened.\n\nTo proceed and save this profile, you must choose settings for WiFi, GPS, display orientation and Android battery saver and they\'ll appear below sequentially. If you don\'t want to change any of these settings, just leave them at \"Unchanged\" and you\'re good to go 👍</string>
     <string name="save">Save profile</string>
     <string name="set_wifi">WiFi state</string>
     <string name="set_location_mode">GPS mode</string>
@@ -716,4 +716,8 @@
     <string name="current_freq_placeholder">Current freq:</string>
     <string name="gpu_current_freq">Current freq: %1$s</string>
     <string name="battery_bm_title">Battery monitor</string>
+    <string name="active_drain_notif">Active drain: %1$s%% /hr · idle drain: %2$s%% /hr</string>
+    <string name="screen_on_notif">Screen on: %1$s · %2$d%%</string>
+    <string name="screen_off_notif">Screen off: %1$s · %2$d%%</string>
+    <string name="discharging_no_val">Discharging</string>
 </resources>
