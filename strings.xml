@@ -1,63 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="backup_restore_title">Kernel backups</string>
-    <string name="cpu_manager_title">CPU/GPU</string>
+    <string name="cpu_manager_title">CPU and GPU</string>
     <string name="kernel_settings_title">Kernel settings</string>
     <string name="color_control_title">Display control</string>
     <string name="power_modes_title">Per-app profiles</string>
-    <string name="system_monitor_title">System Health</string>
+    <string name="system_monitor_title">System health</string>
     <string name="settings_title">Options</string>
     <string name="support_title">Info</string>
     <string name="yes">Yes</string>
-    <string name="auto_flash">Auto-flash</string>
-    <string name="download_zip">Download</string>
+    <string name="auto_flash">Flash</string>
+    <string name="download_zip">Download ZIP</string>
     <string name="changelog_title">Changelog</string>
-    <string name="max_cpu_freq">Max CPU frequency</string>
-    <string name="min_cpu_freq">Min CPU frequency</string>
-    <string name="cluster_max_cpu_freq">%1$s max CPU freq</string>
-    <string name="cluster_min_cpu_freq">%1$s min CPU freq</string>
+    <string name="max_cpu_freq">Minimum CPU frequency</string>
+    <string name="min_cpu_freq">Maximum CPU frequency</string>
+    <string name="cluster_max_cpu_freq">%1$s minimum CPU frequency</string>
+    <string name="cluster_min_cpu_freq">%1$s maximum CPU frequency</string>
     <string name="cpu_governor">CPU governor</string>
-    <string name="no_backups">No kernel backups yet. Why not make one?</string>
-    <string name="auto_flash_and_reboot">Flash &amp; reboot</string>
-    <string name="misc">Misc</string>
+    <string name="no_backups">No backups found</string>
+    <string name="auto_flash_and_reboot">Reboot after flashing</string>
+    <string name="misc">Miscellaneous</string>
     <string name="auto_reboot_summary">Automatically reboot after a successful flash</string>
-    <string name="new_kernel_notify_title">New kernel release auto-notify</string>
-    <string name="new_kernel_notify_summary">A notification fires when a new FK release is available to flash. Checks once per day in the background</string>
+    <string name="new_kernel_notify_title">Notify me when a new kernel is available</string>
+    <string name="new_kernel_notify_summary">Send a notification when a new FK release is available, up to once a day</string>
     <string name="cpu_temperature">CPU temperature</string>
-    <string name="download_path_title">ZIPs download directory</string>
-    <string name="disable_per_app_modes_service_title">Per-app profiles service</string>
-    <string name="disable_per_app_modes_service_summary">Accessibility service detects when an app opens in the foreground and automatically applies your custom Per-app profiles</string>
+    <string name="download_path_title">Download folder</string>
+    <string name="disable_per_app_modes_service_title">Per-app profile service</string>
+    <string name="disable_per_app_modes_service_summary">Accessibility service that detects when to apply per-app profiles based on the active app</string>
     <string name="disable_per_app_modes_toast_title">Status messages</string>
     <string name="disable_per_app_modes_toast_summary">A short toast message when a profile is applied or disabled</string>
-    <string name="cpu_temp_notification_title">Temperature</string>
-    <string name="cpu_temp_notification_summary_on">Showing the temperature on the notification bar</string>
-    <string name="cpu_temp_notification_summary_off">Temperature notification disabled</string>
+    <string name="cpu_temp_notification_title">Show notification</string>
+    <string name="cpu_temp_notification_summary_on">Show the CPU temperaure in a notification</string>
+    <string name="cpu_temp_notification_summary_off">Show the CPU temperaure in a notification</string>
     <string name="cpu_temperature_type_title">Unit</string>
-    <string name="cpu_temperature_type_summary_celsius">Celsius (Cº)</string>
+    <string name="cpu_temperature_type_summary_celsius">Celsius (°C)</string>
     <string name="downloading">Downloading r%1$d</string>
-    <string name="calculating">Little gnomes are calculating download\'s ETA</string>
+    <string name="calculating">Calculating time remaining…</string>
     <string name="voltage_control">Voltage control</string>
-    <string name="cpu_boost">CPU-boost</string>
+    <string name="cpu_boost">CAF CPU boost</string>
     <string name="gpu_control">GPU control</string>
     <string name="governor_control">Governor parameters</string>
-    <string name="hotplug_control">Hotplug Control</string>
+    <string name="hotplug_control">Hotplug control</string>
     <string name="set_on_boot_msg">Set on boot: %1$s</string>
-    <string name="md5_error">Auto-flash aborted!</string>
-    <string name="md5_error_msg">The MD5 doesn\'t match. Please, re-download the kernel.</string>
-    <string name="auto_flash_success_auto_reboot">Auto-flashed successfully! Rebooting…</string>
-    <string name="auto_flash_success">Auto-flashed successfully!</string>
-    <string name="download_complete">Download is complete!</string>
-    <string name="mmc_io_scheduler">MMC I/O Scheduler</string>
+    <string name="md5_error">Flash aborted!</string>
+    <string name="md5_error_msg">File is corrupted; please re-download the kernel</string>
+    <string name="auto_flash_success_auto_reboot">Flash successful! Rebooting…</string>
+    <string name="auto_flash_success">Flash successful!</string>
+    <string name="download_complete">Download finished</string>
+    <string name="mmc_io_scheduler">MMC I/O scheduler</string>
     <string name="temp_threshold">CPU thermal threshold</string>
-    <string name="fsync">I/O fsync</string>
-    <string name="vibrator_amp">Vibrator amp</string>
-    <string name="usb_fast_charge">USB fast charge</string>
+    <string name="fsync">Fsync</string>
+    <string name="vibrator_amp">Vibrator amplification</string>
+    <string name="usb_fast_charge">Force fast charge</string>
     <string name="tegra_smartdimmer">Tegra SmartDimmer</string>
-    <string name="omap_throttle_enable">OMAP Thermal throttle</string>
+    <string name="omap_throttle_enable">OMAP thermal throttling</string>
     <string name="logcat_toggle">Logcat</string>
     <string name="blx">Battery Life Extender</string>
     <string name="backlight_dimmer">Backlight dimmer</string>
-    <string name="backlight_min_brightness">Backlight minimum brightness</string>
+    <string name="backlight_min_brightness">Minimum brightness</string>
     <string name="headphones_gain">Headphones volume gain</string>
     <string name="headset_gain">Headset volume gain</string>
     <string name="mic_gain">Microphone volume gain</string>
@@ -69,49 +69,50 @@
     <string name="enabled">Enabled</string>
     <string name="delete">Delete</string>
     <string name="input_boost_frequency">Input boost frequency</string>
-    <string name="max_gpu_freq">Max GPU frequency</string>
-    <string name="gpu_up_threshold">GPU up_threshold</string>
-    <string name="gpu_down_threshold">GPU down_threshold</string>
-    <string name="online_cores_threshold">Online cores threshold</string>
+    <string name="max_gpu_freq">Maximum GPU frequency</string>
+    <string name="gpu_up_threshold">GPU frequency increase threshold</string>
+    <string name="gpu_down_threshold">GPU frequency decrease threshold</string>
+    <string name="online_cores_threshold">Online core threshold</string>
     <string name="new_profile">New profile</string>
-    <string name="per_app_profile_applied">Per-app profile: %1$s applied!</string>
-    <string name="per_app_profile_disabled">Per-app profile: system returns to defaults!</string>
+    <string name="per_app_profile_applied">Applied %1$s per-app profile</string>
+    <string name="per_app_profile_disabled">Default settings restored</string>
     <string name="apply_profile">Apply a profile</string>
     <string name="applications_list">Apply</string>
     <string name="new_app_profile">New</string>
-    <string name="profile_created_success">Profile created successfully. Now you can apply it on the Application List panel!</string>
-    <string name="no_per_app_profiles">You have to create your profiles first, otherwise there\'s nothing to edit 😊</string>
-    <string name="no_per_app_profiles_toast">You have to create your profiles first</string>
+    <string name="profile_created_success">Profile created. Now you can apply it in the app list.</string>
+    <string name="no_per_app_profiles">You need to create a profile before editing</string>
+    <string name="no_per_app_profiles_toast">You need to create a profile first</string>
     <string name="performance_profiles_title">Performance profiles</string>
     <string name="vibrator_amp2">Device vibration</string>
     <string name="vibrator_amp3">Vibration</string>
     <string name="haptic_vibration">Haptic vibration</string>
-    <string name="power_saving_description">It lowers the CPU, GPU, input boost frequency clocks, and changes some of the governor parameters to lower spikes to higher frequencies to save some precious juice during device usage</string>
-    <string name="power_saving_title">Power-saving</string>
+    <string name="power_saving_description">Lowers frequencies and tunes governors to reduce frequency spikes, thus saving power</string>
+    <string name="power_saving_title">Battery</string>
     <string name="balance_title">Balance</string>
-    <string name="balance_description">Loads the default FK settings. It\'s a safe harbour and it\'ll yield you the best results without degrading performance.</string>
+    <string name="balance_description">A safe harbor that yields decent battery life without degrading performance</string>
     <string name="performance_title">Performance</string>
-    <string name="performance_description">The GPU runs on maximum clock all the time, input boost duration and frequency clock are increased, and some of the governor parameters are changed for more throughput. Buttery smooth!</string>
-    <string name="new_profile_hint">Profile name</string>
-    <string name="app_info">Version: %1$s (%2$d)\nCopyright © 2011–2019\nFrancisco Franco</string>
-    <string name="social">Follow me!</string>
-    <string name="rgb_title">RGB adjustments</string>
-    <string name="rgb_summary">Tune your display color temperature.</string>
-    <string name="performance_profiles_empty_view">Your kernel doesn\'t support this feature. Ask your kernel maintainer to add support for it. Tweet me @franciscof_1990 and I can help the maintainer</string>
-    <string name="new_kernel">New FrancoKernel is available to download!</string>
-    <string name="new_kernel_description">%1$s is ready for download!</string>
-    <string name="performance_profiles_not_supported_widget">Your device\'s kernel does not support this feature or your root permission for this app wasn\'t properly given… can\'t really tell!</string>
-    <string name="temp_not_supported">CPU temperature is not supported</string>
-    <string name="cpu_temperature_type_summary_fahrenheit">Fahrenheit (ºF)</string>
+    <string name="performance_description">Increases frequencies and tunes governors to ramp faster, thus improving performance and reducing jank</string>
+    <string name="new_profile_hint">Name</string>
+    <string name="app_info">Version %1$s (%2$d)
+Copyright © 2011–2019 Francisco Franco</string>
+    <string name="social">Follow the developer</string>
+    <string name="rgb_title">Color control</string>
+    <string name="rgb_summary">Tune your display\'s colors</string>
+    <string name="performance_profiles_empty_view">Your kernel doesn\'t support this feature. Ask your kernel developer to add support for it by tweeting @franciscof_1990.</string>
+    <string name="new_kernel">A new version of Franco Kernel is available</string>
+    <string name="new_kernel_description">%1$s is ready for download</string>
+    <string name="performance_profiles_not_supported_widget">Your kernel doesn't support this feature</string>
+    <string name="temp_not_supported">CPU temperature not supported</string>
+    <string name="cpu_temperature_type_summary_fahrenheit">Fahrenheit (°F)</string>
     <string name="profile_edit_mode">Edit mode</string>
-    <string name="profile_edit_success">Successfully edited!</string>
-    <string name="cancel">Cancel</string>
-    <string name="supported_device_no_kernel">FK not yet available for your device</string>
+    <string name="profile_edit_success">Profile edited</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="supported_device_no_kernel">Franco Kernel is not available for your device</string>
     <string name="double_tap_to_wake">Double tap to wake</string>
-    <string name="vibrator_amp4">Vibrator strength</string>
-    <string name="boot_service_init">Applying "set on boot" settings</string>
-    <string name="boot_service_exit">Finished restoring all "set on boot" settings</string>
-    <string name="gpu_oc">GPU OC</string>
+    <string name="vibrator_amp4">Vibration strength</string>
+    <string name="boot_service_init">Applying settings</string>
+    <string name="boot_service_exit">Settings applied</string>
+    <string name="gpu_oc">GPU overclock</string>
     <string name="led_max_brightness">Charging LED</string>
     <string name="file_name_already_exists">A file with this name already exists</string>
     <string name="turn_on_automatically">Turn on automatically</string>
@@ -125,38 +126,43 @@
     <string name="contrast">Contrast</string>
     <string name="hue">Hue</string>
     <string name="saturation">Saturation</string>
-    <string name="display_value">Display value</string>
-    <string name="set_on_boot_toast_summary_off">A toast message won\'t be shown when you toggle the set on boot switch</string>
-    <string name="set_on_boot_toast_summary_on">A message will be shown every time you set some setting to be restored on boot</string>
-    <string name="set_on_boot_toast_title">Set on boot toast message</string>
-    <string name="error_in_app_payment">There was an error while contacting Google Play Services. Try again</string>
-    <string name="boot_service_toast_summary">Shows a notification when the boot service runs and re-applies all your settings after a reboot</string>
-    <string name="boot_service_toast_title">Boot service notification</string>
+    <string name="display_value">Value</string>
+    <string name="set_on_boot_toast_summary_off">Show a toast when restoring settings after boot</string>
+    <string name="set_on_boot_toast_summary_on">Show a toast when restoring settings after boot</string>
+    <string name="set_on_boot_toast_title">Show a toast on boot</string>
+    <string name="error_in_app_payment">Error contacting Google. Please try again.</string>
+    <string name="boot_service_toast_summary">Show a notification when restoring settings after boot</string>
+    <string name="boot_service_toast_title">Show a notification on boot</string>
     <string name="global">Global</string>
-    <string name="ok">OK</string>
+    <string name="ok">@android:string/ok</string>
     <string name="profile_whitespace_warning">Name cannot contain whitespaces</string>
     <string name="profile_length_warning">Name size is too big (max 15 chars)</string>
     <string name="profile_separator_warning">Name cannot contain path separators</string>
     <string name="profile_empty_warning">Name cannot be empty</string>
     <string name="profile_default_exists_warning">Name you chose is reserved. Please, use a different one</string>
-    <string name="low_power_cluster">Cluster #1</string>
-    <string name="high_perf_cluster">Cluster #2</string>
+    <string name="low_power_cluster">Little cluster</string>
+    <string name="high_perf_cluster">Big cluster</string>
     <string name="camera_mic_gain">Camera mic gain</string>
-    <string name="double_tap_to_wake_2">Double-tap-to-wake</string>
+    <string name="double_tap_to_wake_2">Double tap to wake</string>
     <string name="high_brightness_mode_title">High brightness mode</string>
     <string name="cooler">Cooler</string>
     <string name="warmer">Warmer</string>
-    <string name="temp_threshold_hmp">Cluster #2 offline thermal threshold</string>
-    <string name="error_anykernel_flash">There was an error trying to flash the kernel.¯\_(ツ)_/¯</string>
+    <string name="temp_threshold_hmp">Big cluster offline thermal threshold</string>
+    <string name="error_anykernel_flash">Error trying to flash the kernel. ¯\\_(ツ)_/¯</string>
     <string name="copied_to_clipboard">Copied to the clipboard</string>
-    <string name="automation_summary">1. Open Tasker and slide to the \"Tasks\" tab\n2. Create a new task and give it a name. Ex.: \"CPU - Games\"\n3. Add the \"Send Intent\" action which resides inside \"System\" group\n4. Inside \"Action\" paste the intent you copy from below\n5. Set the package name to \"com.franco.kernel\" (without the quotes)\n6. Save the task and that\'s it!</string>
+    <string name="automation_summary">1. Open Tasker and go to Tasks
+2. Create a new task and give it a name
+3. Add the Send Intent action from the System group
+4. Paste the below intent into Action
+5. Set the package name to com.franco.kernel
+6. Save the task</string>
     <string name="options">Options</string>
     <string name="no">No</string>
-    <string name="little_cluster">Cluster #1</string>
-    <string name="big_cluster">Cluster #2</string>
-    <string name="auto_flashing">Flashing the kernel…</string>
-    <string name="magical_enhancements_incoming">Magical enhancements incoming!</string>
-    <string name="kernel_download_error">Some error occurred when trying to download the kernel - can\'t pinpoint the cause - sorry!</string>
+    <string name="little_cluster">Little cluster</string>
+    <string name="big_cluster">Big cluster</string>
+    <string name="auto_flashing">Flashing kernel…</string>
+    <string name="magical_enhancements_incoming">Magical enhancements coming soon</string>
+    <string name="kernel_download_error">Error trying to download the kernel</string>
     <string name="wifi_status">Wi-Fi status</string>
     <string name="android_battery_saver">Android Battery Saver</string>
     <string name="location_mode">Location mode</string>
@@ -180,7 +186,7 @@
     <string name="apps_with_profiles">Apps with profiles</string>
     <string name="apps_list">Apps list</string>
     <string name="night_shift">Night Shift</string>
-    <string name="night_shift_description">Many studies show that exposure to bright-blue light in the evening can affect your circadian rhythms and make it harder for you to fall asleep. Night Shift automatically shifts the colors of your display to the warmer end of the color spectrum after dark. This may help you get a better night\'s sleep.</string>
+    <string name="night_shift_description">Studies show that exposure to blue light in the evening can affect your circadian rhythms and make it harder to fall asleep. Night Shift shifts the colors of your display to the warmer end of the color spectrum after dark. This may help you sleep better.</string>
     <string name="color_temperature">Color temperature</string>
     <string name="from">From</string>
     <string name="to">To</string>
@@ -190,9 +196,9 @@
     <string name="unchanged">Unchanged</string>
     <string name="display_profile_title_new">New display color profile</string>
     <string name="display_profile_hint_new">profile_name</string>
-    <string name="delete_color_profile_title">Delete a profile</string>
-    <string name="delete_color_profile_content">Are you sure you want to delete %s?</string>
-    <string name="display_profile_name_exists">This profile name already exists</string>
+    <string name="delete_color_profile_title">Delete profile?</string>
+    <string name="delete_color_profile_content">Really delete %s? You can\'t get it back.</string>
+    <string name="display_profile_name_exists">There's already a profile with that name</string>
     <string name="status">Status</string>
     <string name="restore_the_defaults">Restore to default</string>
     <string name="haptic_vibration_strength">Haptic vibration level</string>
@@ -205,26 +211,31 @@
     <string name="sunlight">Sunlight</string>
     <string name="shadow">Shadow</string>
     <string name="automatic_hbm">Auto high brightness mode</string>
-    <string name="night_shift_not_supported">Night Shift isn\'t supported by your device/kernel configuration</string>
-    <string name="hbm_not_supported">High brightness mode isn\'t supported by your device/kernel configuration</string>
+    <string name="night_shift_not_supported">Your kernel doesn\'t support Night Shift</string>
+    <string name="hbm_not_supported">Your kernel doesn\'t support high brightness mode</string>
     <string name="gpu_governor">GPU governor</string>
-    <string name="android_battery_saver_title">Android Battery Saver</string>
-    <string name="android_battery_saver_summary_on">Automatically enable when Power-saving profile is active</string>
+    <string name="android_battery_saver_title">Link with Android Battery Saver</string>
+    <string name="android_battery_saver_summary_on">Enable Battery Saver when battery profile is active</string>
     <string name="battery_labs_title">Tips</string>
-    <string name="battery_life_labs_description">A set of simple suggestions &amp; hints to improve your device\'s battery life.\nClicking the cards will expand them showing useful information.\nThe overflow menu gives you options for the tips, or direct link to those sections</string>
-    <string name="cpu_underclock">Underclock the CPU</string>
-    <string name="cpu_underclock_description">Lowering the CPU clocks will greatly increase your screen on time at the expense of performance. Most of the device\'s operations aren\'t really CPU intensive, so lowering it at least 25% is enough to greatly reduce power consumption.\n\nThere are several instances in which this will show the device as \"underclocked\", even though you haven\'t applied this previously, the most notable being thermal throttling (if this is the case you won\'t be able to restore to the default clocks, your device handles it for you automatically), or your ROM/kernel has underclocked the CPU by default.</string>
+    <string name="battery_life_labs_description">Simple suggestions &amp; hints to improve your battery life.
+Tap the cards and menus for more information.</string>
+    <string name="cpu_underclock">Underclock the CPU</string> <!-- STOPSHIP TODO -->
+    <string name="cpu_underclock_description">Lowering the CPU clocks will greatly increase your screen on time at the expense of performance. Most of the device\'s operations aren\'t really CPU intensive so lowering it at least 25% is enough to greatly reduce power consumption.
+
+There are several instances in which this will show the device as \"underclocked\" even though you haven\'t applied this previously, the most notable being thermal throttling (if this is the case you won\'t be able to restore to the default clocks, your device handles it for you automatically), or your rom/kernel has underclocked the CPU by default.</string>
     <string name="apply">Apply</string>
     <string name="apply_percentage">Apply %1$d%% lower clocks</string>
     <string name="gpu_underclock">Underclock the GPU</string>
-    <string name="gpu_underclock_description">Most operations don\'t need any real GPU computation, but every time the framebuffer refreshes, the GPU core needs to come out of sleep. Some implementations even ramp up the GPU for every touch input. Reducing the maximum GPU clock can also provide some great reduction of power consumption, without adding jank</string>
+    <string name="gpu_underclock_description">Most operations don\'t need any real GPU computation, but every time the framebuffer refreshes the GPU core needs to come out of sleep. Some implementations even ramp up the GPU for every touch input. Reducing the maximum GPU clock can also provide some great power consumption reduction, without adding jank</string>
     <string name="performance_profile_power_saving">Power-saving profile</string>
-    <string name="performance_profile_power_saving_description">Tightly integrated with FK. This profile changes the CPU, GPU, input boost frequency and duration, and, sometimes (depending on the device), it also changes governor parameters. This profile is very aggressive and you might experience some jank here and there, but the reduction of power consumption during screen on will be immense</string>
+    <string name="performance_profile_power_saving_description">Tightly integrated with FK, this profile changes the CPU, GPU, input boost frequency and duration, and sometimes (depending on the device) it also changes governor parameters. This profile is very aggressive and you might experience some jank here and there, but the power consumption reduction during screen on will be immense</string>
     <string name="auto_sync">Disable auto-sync</string>
-    <string name="auto_sync_description">Disabling automatic background syncing has two sides of the same coin. For one, disabling it will certainly reduce needlessly idle wakeups (when doze isn\'t active), but then you\'ll lose some features, such as notifications for new e-mails when they arrive on your inbox, and other pieces that constantly backup/query online services. It really depends on your usage and needs</string>
+    <string name="auto_sync_description">Disabling automatic background syncing has two sides of the coin. For one, disabling it will certainly reduce needlessly idle wakeups (when doze isn\'t active), but then you\'ll lose some features, such as announces for new e-mails when they arrive on your inbox, and other pieces that constantly backup/query online services. It really depends on your usage and needs</string>
     <string name="per_app_profiles">Create Per-app profiles</string>
-    <string name="per_app_profiles_description">If you want to go deep into the rabbit hole, you can create custom power profiles to be applied on a per-app basis.\nSocial network apps, or Maps, news, or generally anything heavily text based without fancy elements or crazy animations will work fine on a very restrictive power profile. Since these can be applied for each app, you can leave your system defaults on all the time, and then when you open an app with a profile bound to it, let\'s say Messages, the profile will kick in and apply your settings while you\'re using it. As soon as you leave the app, the settings will go back to defaults.\nIt\'s very powerful and you can create a very unique and personal experience</string>
-    <string name="naptime_description">With Naptime, by toggling in the \"Aggressive doze\" option, Doze will kick in right after you screen off AND it will disable your sensors so that it won\'t kick you out from Doze mode if you move around. When you turn your screen on – everything goes back to normal. It\'s just like magic, providing you an amazing idle batter life</string>
+    <string name="per_app_profiles_description">If you want to go deep into the rabbit hole you can create custom power profiles to be applied on a per-app basis.
+Social network apps, or Maps, news, or generally anything heavily text based without fancy elements or crazy animations will work fine on a very restrictive power profile. Since these can be applied for each app, you can leave your system defaults on all the time, and then when you open an app with a profile bound to it, let\'s say Messages, the profile will kick in and apply your settings while you\'re using it. As soon as you leave the app, the settings will go back to defaults.
+It\'s very powerful and you can create a very unique and personal experience</string>
+    <string name="naptime_description">With Naptime by toggling in the \"Aggressive doze\" option Doze will kick in right after you screen off AND it disables your sensors so that it doesn\'t kick you out from Doze mode if you move around. When your device screens on everything goes back to normal. It\'s just like magic, providing you an amazing idle batter life</string>
     <string name="naptime">Install Naptime</string>
     <string name="create">Create</string>
     <string name="install">Install</string>
@@ -235,14 +246,16 @@
     <string name="medium_cpu_underclock">50% power reduction</string>
     <string name="high_cpu_underclock">75% power reduction</string>
     <string name="lower_max_brightness">Lower max brightness</string>
-    <string name="lower_max_brightness_description">The display is one of the two components that use the most of the power. Even with adaptive brightness, the panel will reach high nits of light, sometimes unnecessarily. By reducing the maximum value, you\'ll save some very precious battery when you need it the most.</string>
+    <string name="lower_max_brightness_description">The display is one of the two components that use the most power. Even with adaptive brightness the panel will reach high nits of light, sometimes unnecessarily. By reducing the maximum value it can achieve you\'ll save some very precious battery when you need it the most.</string>
     <string name="low_lower_max_brightness">20% lower max brightness</string>
     <string name="medium_lower_max_brightness">40% lower max brightness</string>
     <string name="high_lower_max_brightness">60% lower max brightness</string>
     <string name="very_high_lower_max_brightness">80% lower max brightness</string>
     <string name="apply_display_brightness_percentage">Apply %1$d%% lower max brightness</string>
     <string name="no_root_title">Root access seems to be missing</string>
-    <string name="no_root_message">Unfortunately, nothing in this app will work without root access, so you can\'t proceed until you root your device/give the app root permissions.\n\nIf you believe this message is wrong, check your root manager app and see if you\'ve granted root permissions to this app.</string>
+    <string name="no_root_message">Unfortunately nothing in this app will work without root access so you can\'t proceed until you root your device/give the app root permissions.
+
+If you believe this message is wrong check your root manager app and see if you\'ve granted root permissions to this app.</string>
     <string name="close_the_app">Close the app</string>
     <string name="applying">Applying…</string>
     <string name="restoring">Restoring…</string>
@@ -254,16 +267,16 @@
     <string name="max_panel_brightness_summary">100%</string>
     <string name="display_max_brightness_error">The value needs to be higher than 0 up to a maximum of 100</string>
     <string name="backing_up">Backing up…</string>
-    <string name="kernel_download_channel">Kernel download channel</string>
+    <string name="kernel_download_channel">Kernel update channel</string>
     <string name="backup">Backup</string>
     <string name="dismiss">Dismiss</string>
     <string name="set_on_boot">Set on boot</string>
     <string name="remove_set_on_boot">Remove set on boot</string>
     <string name="servicely_description">Automagically put all apps into App Standby after screen off. Plus other powerful feature to disable any service in any app in your device.</string>
     <string name="servicely">Install Servicely</string>
-    <string name="silver_cluster_title">Cluster #1</string>
-    <string name="gold_cluster_title">Cluster #2</string>
-    <string name="platinum_cluster_title">Cluster #3</string>
+    <string name="silver_cluster_title">Little cluster</string>
+    <string name="gold_cluster_title">Big cluster</string>
+    <string name="platinum_cluster_title">Prime cluster</string>
     <string name="io">I/O</string>
     <string name="wakelocks">Wakelocks</string>
     <string name="sound_control">Sound control</string>
@@ -276,16 +289,22 @@
     <string name="editor">Editor</string>
     <string name="kernel_flasher">Flasher</string>
     <string name="special_contributors">Special contributors</string>
-    <string name="osm0sis_summary">Wrote the current version of the auto-flasher feature (probably the only implementation in the world) and developer of the popular AnyKernel2 flashing mechanism. Without his contributions, this app\'s primary feature wouldn\'t be possible</string>
-    <string name="hbm_description">High brightness mode allows the display\'s brightness to go above the maximum stock value.\nThis is particularly useful in direct sunlight, although it shouldn\'t be used for long periods since it increases the chance for burn-in on OLED displays and consumes way more power</string>
-    <string name="auto_hbm_description">This feature will automatically analyze the environment ambient light and activate High brightness mode if your surroundings are brighter than the threshold you set. It turns off if the current light value is below it</string>
-    <string name="rationale_write_storage_permission">This app needs permission to write into the internal storage to function properly</string>
-    <string name="night_shift_channel">Controls how Night Shift goes on or off</string>
+    <string name="osm0sis_summary">Wrote the current version of the auto-flasher feature (probably the only implementation in the world) and developer of the popular AnyKernel2 flashing mechanism. Without his contributions this app\'s primary feature wouldn\'t be possible</string>
+    <string name="hbm_description">High brightness mode allows the display\'s brightness to go above the maximum stock value.
+This is particularly useful in direct sunlight, although it shouldn\'t be used for long periods since it increases the chance for burn-in on OLED displays and consumes way more battery</string>
+    <string name="auto_hbm_description">The automatic feature will analyze the environment ambient light and activate high brightness mode if your surroundings are brighter than the threshold you set. It automatically turns off if the light is below it</string>
+    <string name="rationale_write_storage_permission">This app needs permission to write into the internal sdcard to function properly</string>
+    <string name="night_shift_channel">Controls Night Shift goes on or off</string>
     <string name="per_app_profiles_channel">Detects which app is in the foreground and applies your Per-app profiles accordingly</string>
-    <string name="location_permission_rationale">Location permission is required to figure out the approximate sunset and sunrise times.\nIt\'s a very low power location request, only once every sunset/sunrise transition.</string>
+    <string name="location_permission_rationale">Location permission is required to figure out the approximate sunset and sunrise times.
+It\'s a very low power location request only once every sunset/sunrise transition.</string>
     <string name="kmfk_supporter">Special Supporter program!</string>
     <string name="confortable_paying">Pick the amount you\'re comfortable with</string>
-    <string name="supporter_description">The supporter program is a simple &amp; quick way for amazing users like you to take an additional step of support, recognizing the value this app provides (remember all the battery life I which helped you to save?).\n\nPart of these proceedings are shared with others, such as the designer who made these wallpapers. Supporting me means supporting them too.\n\nAs a \"thank you\", you\'ll have this banner displayed in the Help &amp; Support section and you\'ll have access to 4 exclusive and never seen before wallpapers for your device. The wallpapers are accessible by clicking the banner at the Help &amp; Support section.</string>
+    <string name="supporter_description">The supporter program is a simple &amp; quick way for amazing users like you to make an additional show of support recognizing the value this app provides (remember all the battery life I helped you save?).
+
+Part of these proceedings are shared with others, such as the designer who made these wallpapers. Supporting me means supporting them too.
+
+As a \"thank you\" you\'ll have this banner displayed in the Help &amp; Support section and you\'ll have access to 4 exclusive never seen before wallpapers for your device. The wallpapers are accessible by clicking the banner at the Help &amp; Support section.</string>
     <string name="rebooting">Rebooting!</string>
     <string name="backlight_max_brightness">Backlight max brightness</string>
     <string name="wallpaper_load_fail">Couldn\'t load image as wallpaper</string>
@@ -295,7 +314,7 @@
     <string name="which_wallpaper_option_home_screen_and_lock_screen">Home screen and lock screen</string>
     <string name="wallpaper_instructions">Set wallpaper</string>
     <string name="set_wallpaper">Set wallpaper</string>
-    <string name="new_kernel_available">New FK release available notification</string>
+    <string name="new_kernel_available">Kernel updates</string>
     <string name="cpu_cores">CPU cores</string>
     <string name="cpufreq_stats">CPU frequencies stats</string>
     <string name="disk_io_title">Disk Read &amp; Writes</string>
@@ -332,13 +351,19 @@
     <string name="empty" />
     <string name="error_auto_flash_storage">There was an error when saving the file to internal storage</string>
     <string name="install_bbs">Install BetterBatteryStats</string>
-    <string name="install_bbs_description">With BetterBatteryStats, you can analyse the behavior of your phone, find applications causing the phone to drain battery while it is supposed to be asleep and measure the effect of corrective actions:\n· Spot drainers based on detailed information about the root cause\n· measure the effect of actions to reduce drain, following a simple method\n· detect changes in the awake/sleep profile and quickly find the causes (rogue apps)\n\nIn other words, BetterBatteryStats helps you achieve the best experience with your device!</string>
+    <string name="install_bbs_description">With BetterBatteryStats you can analyse the behavior of your phone, find apps causing the phone to drain battery while it is supposed to be asleep and measure the effect of corrective actions:
+· Spot drainers based on detailed information about the root cause
+· measure the effect of actions to reduce drain, following a simple method
+· detect changes in the awake/sleep profile and quickly find the causes (rogue apps)
+
+In other words BetterBatteryStats helps you achieve the best experience with your device!</string>
     <string name="bbs_overflow_msg">Nothing to see here if BetterBatteryStats isn\'t installed</string>
     <string name="governor_profiles">Governor profiles</string>
-    <string name="save_governor_profile_description">Profiles saved to /sdcard/franco.kernel_updater/governor_profiles\nIt creates a snapshot of all your governor parameters and saves it into a file that can be shared anywhere. You can also get profiles and place them on this directory so they\'ll show up here.</string>
+    <string name="save_governor_profile_description">Profiles saved to /sdcard/franco.kernel_updater/governor_profiles
+It creates a snapshot of all your governor parameters and saves it into a file that can be shared anywhere. You can also get profiles and place them on this directory so they\'ll show up here.</string>
     <string name="save_governor_profile">Create a new profile</string>
-    <string name="cluster1">Cluster #1</string>
-    <string name="cluster2">Cluster #2</string>
+    <string name="cluster1">Little cluster</string>
+    <string name="cluster2">Big cluster</string>
     <string name="just_auto_flash">Just flash</string>
     <string name="run_shell_script_title">Execute this script</string>
     <string name="execute">Run</string>
@@ -348,10 +373,12 @@
     <string name="profile_name_already_exists">A profile with this name already exists</string>
     <string name="choose_another_name">choose other name</string>
     <string name="overwrite">overwrite</string>
-    <string name="accessibility_service_description">Foreground App Detection\n\nThis is used to detect which app is running in the foreground at any given time to automate tasks through Per-app profiles feature. Automation profiles are built by the users on a per-app basis.\n\nThis service only listens for typeWindowStateChanged and it can\'t retrieve any window content.\n\nFor transparency purposes, I\'ll provide the source code for this feature if asked.</string>
+    <string name="accessibility_service_description">This is used to trigger per-app profiles based on the active app.
+
+This service will never read your screen. You can ask for the code powering this service for transparency.</string>
     <string name="night_shift_auto_mode">Automatic mode</string>
     <string name="custom_timers">Custom timers</string>
-    <string name="sunset_sunrise">From sunset to sunrise</string>
+    <string name="sunset_sunrise">Sunset to sunrise</string>
     <string name="tcp_congestion_algorithm">TCP congestion algorithm</string>
     <string name="supporters_summary">Contribute to help me keep up with server costs and support more devices. You\'ll win a nice medal, 4 custom wallpapers and my forever gratitude! 🙌</string>
     <string name="support">Support!</string>
@@ -359,14 +386,21 @@
     <string name="profile_name">(new profile name e.g. battery_saving)</string>
     <string name="none">none</string>
     <string name="cpu_input_boost">CPU input boost</string>
-    <string name="input_boost_frequency_lp">Cluster #1 CPU input boost</string>
-    <string name="input_boost_frequency_hp">Cluster #2 CPU input boost</string>
+    <string name="input_boost_frequency_lp">Little cluster CPU input boost</string>
+    <string name="input_boost_frequency_hp">Big cluster CPU input boost</string>
     <string name="reset_colors">Reset</string>
     <string name="battery_monitor">Battery monitor</string>
-    <string name="battery_monitor_description">This tries to accurately \"guess\" the battery used per hour while under usage or during idle. The longer this service is left running – the more accurate it gets.\nActive idle is calculated based on your screen on time and the % lost while the display is turned on.\nIdle drain is calculated based on how much % is lost any time the display is off.\nScenarios when the collected stats reset:\n
-        · The device reboots;\n
-        · It\'s charged to 100%;\n
-        · When it\'s unplugged from the charger.\nThese scenarios will help the battery data to be fresh and relevant to your current usage
+    <string name="battery_monitor_description">This tries to accurately \"guess\" the battery used per hour while under usage or during idle. The longer this service is left running the more accurate it gets.
+Active idle is calculated based on your screen on time and the % lost while the display is turned on.
+Idle drain is calculated based on how much % is lost any time the display is off.
+Scenarios when the collected stats reset:
+
+        · The device reboots;
+
+        · It\'s charged to 100%;
+
+        · When it\'s unplugged from the charger.
+These scenarios will help the battery data to be fresh and relevant to your current usage
     </string>
     <string name="battery_monitor_enable_title">Battery monitor service</string>
     <string name="battery_monitor_title">Stats &amp; options</string>
@@ -399,7 +433,7 @@
     <string name="startup_page">App start-up page</string>
     <string name="system_health_startup_page">\"System Health\" start-up monitor</string>
     <string name="drawer_icon_gravity">Drawer icon placement</string>
-    <string name="custom_kernel_tunables_edit">Edit custom kernel tunables</string>
+    <string name="custom_kernel_tunables_edit">Edit custom tunables</string>
     <string name="tunable_description">The actual description</string>
     <string name="tunable_add_description">Set a description for this item</string>
     <string name="tunable_rename">Change the title name of this tunable</string>
@@ -414,58 +448,65 @@
     <string name="block_another_wakelock">Block a wakelock</string>
     <string name="anykernel_flash">Flashing %s</string>
     <string name="blocked">Blocked</string>
-    <string name="block_another_wakelock_msg">This feature is for advanced users. Blocking wakelocks is solely your own responsibility and if you break anything by doing it – then you\'re on your own.\n\nThat said, the only thing that can really break is an app (that really needs that wakelock to function) or some vital system functionality which needs the wakelock to do something periodically during idle.\n\nYou can check for your Wakelocks using BetterBatteryStats or any other similar app</string>
+    <string name="block_another_wakelock_msg">This feature is for advanced users - blocking wakelocks is solely your own responsibility and if you break anything by doing it then you\'re on your own.
+
+That said, the only thing that can really break is an app (that really needs that wakelock to function) or some vital system functionality which needs the wakelock to do something periodically during idle.
+
+You can check for your Wakelocks using BetterBatteryStats or any other similar app</string>
     <string name="enter_wakelock_name">Wakelock name</string>
     <string name="wakelock_name_cant_be_empty">Wakelock name can\'t be empty</string>
     <string name="wakelock_already_exist">This wakelock is already being blocked</string>
     <string name="delete_wakelock">Stop blocking \"%s\"?</string>
-    <string name="no_wakelocks_being_blocked">You\'re currently not blocking any wakelocks.\n\nIf you\'re having idle drain, install BetterBatteryStats (it\'s free from XDA) and check which wakelocks are active the most and then block them here</string>
+    <string name="no_wakelocks_being_blocked">You\'re currently not blocking any wakelocks.
+
+If you\'re having idle drain install BetterBatteryStats (it\'s free from XDA) and check which wakelocks are doing it and then block them here</string>
     <string name="feedback_title">Send feedback!</string>
     <string name="feedback_summary">Do you have an idea you want to see implemented - or a suggestion? You\'re in the right place!</string>
     <string name="email_me">E-mail me!</string>
     <string name="you_cant_add_directories">You can\'t add a directory</string>
     <string name="description_empty">You haven\'t yet added a description for this item</string>
     <string name="cpubw_ddr">DDR bus</string>
-    <string name="kernel_logger">Kernel logger</string>
+    <string name="kernel_logger">Kernel log</string>
     <string name="refresh">Refresh</string>
-    <string name="reset_dmesg">Reset dmesg</string>
-    <string name="reset_dmesg_title">Reset the Kernel logger</string>
-    <string name="reset_dmesg_summary">This will reset dmesg and erase all the logging messages from the kernel</string>
-    <string name="loggers">Loggers</string>
+    <string name="reset_dmesg">Clear</string>
+    <string name="reset_dmesg_title">Clear kernel log?</string>
+    <string name="reset_dmesg_summary">All messages in the kernel log will be cleared</string>
+    <string name="loggers">Logs</string>
     <string name="enter_backup_name">Enter the backup name</string>
     <string name="memory_stuff">Memory stuff</string>
     <string name="low_memory_killer">Low memory killer presets</string>
     <string name="ksm">KSM</string>
-    <string name="zram_title">ZRAM</string>
-    <string name="cpus">CPU</string>
+    <string name="zram_title">zRAM</string>
+    <string name="cpus">Cpu</string>
     <string name="screen_on_info">Screen on stats</string>
     <string name="screen_off_info">Screen off stats</string>
     <string name="swappiness">Swappiness</string>
-    <string name="zram_disksize">ZRAM size</string>
+    <string name="zram_disksize">zRAM size</string>
     <string name="dirty_ratio">Dirty ratio</string>
     <string name="dirty_bg_ratio">Dirty background ratio</string>
     <string name="dirty_writeback_centisecs">Dirty writeback centisecs</string>
     <string name="vfs_cache_pressure">VFS cache pressure</string>
-    <string name="zram_disksize_desc">Set the size in Megabytes:\ne.g. 1024</string>
-    <string name="zram_state">ZRAM state</string>
-    <string name="night_shift_warning">Night Shift settings can and might be affected by the manufacturer\'s implementations. For example, Night Shift won\'t work on the OnePlus 6 unless you have Adaptive Display enabled. LiveDisplay by LineageOS might affect this feature too. Just be wary of this</string>
+    <string name="zram_disksize_desc">Size in MiB:</string>
+    <string name="zram_state">zRAM state</string>
+    <string name="night_shift_warning">Night Shift settings can and might be affected by the manufacturer\'s implementations. For example Night Shift won\'t work on the OnePlus 6 unless you have Adaptive Display enabled. LiveDisplay by LineageOS might affect this feature too. Just be wary of this</string>
     <string name="battery_monitor_service_not_running">You need to have the Battery Monitor service running to gather stats. Go to System Health -> Battery Monitor and enable it</string>
-    <string name="min_gpu_freq">Min GPU frequency</string>
+    <string name="min_gpu_freq">Minimum GPU frequency</string>
     <string name="dynamic_stune_boost">Dynamic stune boost</string>
     <string name="stune_boost">Stune boost</string>
-    <string name="dt2w">DoubleTap2Wake</string>
-    <string name="s2w">Sweep2wake</string>
-    <string name="s2s">Sweep2sleep</string>
+    <string name="dt2w">Double tap to wake</string>
+    <string name="s2w">Sweep to wake</string>
+    <string name="s2s">Sweep to sleep</string>
     <string name="gesture_vib_strength">Gesture vibration strength</string>
     <string name="show_stdout_summary">Dialog with an auto-updating flashing log. Particularly useful for debugging</string>
     <string name="show_stdout_title">Show logs when flashing</string>
     <string name="show_amp_voltage_title">Show charging amperage and wattage</string>
-    <string name="show_amp_voltage_tip">Amperage and voltage depends on the charger &amp; cable that you\'re using. These charging values can also be affected by your usage, device heat and/or battery temperature. This feature simply reads the values from the kernel, but they might not a 100% accurate representation of the real electricity current, so take these as an estimation.\nIf for some reason these stats don\'t show up, then it\'s likely your device has different paths. Contact me and we\'ll figure it out together</string>
-    <string name="core_control_title">Cores control</string>
+    <string name="show_amp_voltage_tip">Amperage and voltage depends on the charger &amp; cable that you\'re using. These charging values can also be affected by your usage, device heat and/or battery temperature. This feature simply reads the values from the kernel, but they might not a 100% accurate representation of the real electricity current so take these as an estimation.
+If for some reason these stats don\'t show up then it\'s likely your device has different paths. Contact me and we\'ll figure it out together</string>
+    <string name="core_control_title">Core control</string>
     <string name="online">Online</string>
     <string name="offline">Offline</string>
-    <string name="cant_offline_cpu0">You can\'t put CPU0 offline because it\'s essential and vital for device\'s functions</string>
-    <string name="cores_control_tip">Turning off cores is a quick and dirty way to save some power. Be wary, the device will likely suffer some performance loss exponentially to the amount of cores going offline.\nAlso some chips will have restrictions. For example, on big.Little devices the big cluster will always need one core online</string>
+    <string name="cant_offline_cpu0">You can\'t offline CPU0 because it\'s essential and vital to the device\'s functions</string>
+    <string name="cores_control_tip">Disabling cores is a quick and dirty way to save power, though performance will be impacted</string>
     <string name="cpu">cpu</string>
     <string name="cpu_stats">cpu stats</string>
     <string name="ram">ram</string>
@@ -478,11 +519,11 @@
     <string name="note_cant_be_empty">You can\'t add an empty note</string>
     <string name="restore_kernel">Restore this kernel?</string>
     <string name="restore_kernel_summary">Are you sure you want to restore this kernel backup? The kernel will be available after a reboot</string>
-    <string name="zram_turning_off">Working on disabling ZRAM, it can take up to 1–2 minutes to complete…</string>
-    <string name="zram_turning_on">Working on enabling ZRAM…</string>
-    <string name="zram_changing_size">Working on changing ZRAM disksize. It can take up to 1–2 minutes depending on the size you\'ve set…</string>
-    <string name="show_deep_sleep">Show deep sleep percentage</string>
-    <string name="show_small_percentages"><![CDATA[Show frequencies with < 0.5% usage]]></string>
+    <string name="zram_turning_off">Disabling zRAM, this may take a while…</string>
+    <string name="zram_turning_on">Enabling zRAM…</string>
+    <string name="zram_changing_size">Resizing zRAM, this may take a while…</string>
+    <string name="show_deep_sleep">Show deep sleep</string>
+    <string name="show_small_percentages">Show rarely used frequencies</string>
     <string name="dmesg_query_not_found">There isn\'t any string with that search term</string>
     <string name="op6_vibration_taps">Haptic vibration touch taps</string>
     <string name="op6_vibration_notifs">Haptic vibration notifications</string>
@@ -490,28 +531,38 @@
     <string name="disable_gestures_haptic">Disable gestures haptic feedback</string>
     <string name="thermal_zones">Thermal zones</string>
     <string name="new_per_app_profiles_onboarding_title">Welcome to the new Per-app profiles experience</string>
-    <string name="new_per_app_profiles_onboarding_description">Below you\'ll choose between two different ways to create and manage your app profiles. \nIf this is the first time you\'re using this feature, I strongly recommend you trying the \"Simple mode\" first.\nYou can change your choice later at Settings if you wish.</string>
+    <string name="new_per_app_profiles_onboarding_description">Below you\'ll choose between two different ways to create and manage your app profiles. 
+If this is the first time you\'re using this feature I strongly recommend trying the \"Simple mode\" first.
+You can change your choice later at Settings if you wish.</string>
     <string name="simple_mode">Simple mode</string>
     <string name="simple_mode_description">You\'ll be guided through all the steps with descriptions along the way</string>
     <string name="advanced_mode">Advanced mode</string>
     <string name="advanced_mode_description">All the options will be displayed right away with no descriptions. This mode assumes you\'ve made profiles before and are used to this feature</string>
-    <string name="enable_per_app_profiles_service">To start things off, we need to enable the background service that\'ll be responsible to apply your profile when apps are open and you\'re interacting with them</string>
+    <string name="enable_per_app_profiles_service">To start things off, you need to enable the background service that applies profiles</string>
     <string name="start_service">Start this service</string>
-    <string name="choose_app_title">Now it\'s time to choose to which app you want to apply your profile. When this app goes into the foreground, the profile is applied automagically. When it goes to the background, your previous device settings will be re-applied\n\nDon\'t worry, you\'ll be able to change this afterwards if you change your mind 🙂</string>
+    <string name="choose_app_title">Choose the app that the profile will affect. You can change this later.</string>
     <string name="choose_app">Choose an app to apply the profile</string>
-    <string name="lets_get_started">Let\'s get started!</string>
+    <string name="lets_get_started">Select an app</string>
     <string name="choose_another_app">Choose a different app</string>
     <string name="next">Next</string>
     <string name="cpu_max_freqs_title">CPU max frequencies</string>
-    <string name="cpu_max_freqs_description">One of the most important settings, and likely the option that\'ll save you the most battery. Each device has a minimum and a maximum CPU frequency, and, depending on the system load, the freq will scale up and down. Depending on the app you\'ve chosen, it may be wise to lower the max frequency in order to save battery.\n\nFor example, if you\'re using Google Maps, your device is using a lot of power with active GPS, display and all the sensors, so by lowering max freq you will not run out of juice so fast.</string>
-    <string name="set_low_power_cluster_freq">Set max freq low power CPUs</string>
-    <string name="set_high_perf_cluster_freq">Set max freq for high perf CPUs</string>
-    <string name="set_max_freq">Change the max freq for your CPUs</string>
+    <string name="cpu_max_freqs_description">One of the most important setting, and likely the option that\'ll save you the most battery. Each device has a minimum frequency and a maximum frequency, and depending on the system load the freq will scale up and down. Depending on the app you\'ve chosen it may be wise to lower the max frequency to save battery.
+
+For example if you\'re using Google Maps your device is using lots of battery with GPS, the display, all the sensors, so setting a lower max freq it\'ll help you not run out of juice as fast.</string>
+    <string name="set_low_power_cluster_freq">Set max freq low power cpus</string>
+    <string name="set_high_perf_cluster_freq">Set max freq for high perf cpus</string>
+    <string name="set_max_freq">Change the max freq for your cpus</string>
     <string name="gpu_max_freq_title">GPU max frequency</string>
     <string name="set_gpu_max_freq">Change GPU max freq</string>
-    <string name="gpu_max_freq_description">Same as with the CPU max frequency, the GPU works exactly the same way. If what you\'re doing something that isn\'t graphically intensive, there\'s no real need to allow the GPU to scale so high and use more power.\n\nGeneral rule of thumb: you can set a lower than max GPU freq unless you\'re applying this profile to a game ✨</string>
+    <string name="gpu_max_freq_description">Same as with the CPU max frequency, the GPU works exactly the same way. If what you\'re doing isn\'t graphically intensive there\'s no real need to allow the GPU to scale so high and use more power.
+
+General rule of thumb you can set a lower than max GPU freq unless you\'re applying this profile to a game ✨</string>
     <string name="device_settings_title">Device settings</string>
-    <string name="device_settings_descriptions">You\'ll likely don\'t need a WiFi or GPS when reading a book through the Kindle app, or you want to use the phone in a certain orientation specifically for that one app.\n\nAll the settings that you\'ll choose below are applied when the app you\'ve selected is opened.\n\nTo proceed and save this profile, you must choose settings for WiFi, GPS, display orientation and Android battery saver and they\'ll appear below sequentially. If you don\'t want to change any of these settings, just leave them at \"Unchanged\" and you\'re good to go 👍</string>
+    <string name="device_settings_descriptions">You\'ll likely not need WiFi or GPS when reading a book through the Kindle app, or you want to use the phone in a certain orientation specifically for that one app.
+
+All the settings you\'ll choose below are applied when the app you\'ve selected is opened.
+
+To proceed and save this profile you must choose settings for WiFi, GPS, display orientation and Android battery saver and they\'ll appear below sequentially. If you don\'t want to change any of these settings just leave them at \"Unchanged\" and you\'re good to go 👍</string>
     <string name="save">Save profile</string>
     <string name="set_wifi">WiFi state</string>
     <string name="set_location_mode">GPS mode</string>
@@ -521,38 +572,42 @@
     <string name="apply_an_existing_profile">Manage your app profiles</string>
     <string name="edit_profile">Edit your profiles</string>
     <string name="save_profile_hint">Set your new profile name</string>
-    <string name="start_over_help">Stop the setup wizard and return to the initial menu</string>
+    <string name="start_over_help">Stop the wizard and return to the initial menu</string>
     <string name="noob_mode">Simple mode</string>
     <string name="pro_mode">Pro mode</string>
     <string name="per_app_profiles_mode_title">Per-app profiles interface mode</string>
     <string name="stune_title">Stune boost</string>
     <string name="dmesg_items_found">%1$d found</string>
     <string name="auto_flash_abort">Auto-flash ended in failure</string>
-    <string name="auto_flash_abort_text">For some reason, Auto-Flash has failed to complete. Reboot your device and try again</string>
+    <string name="auto_flash_abort_text">For some reason Auto-Flash has failed to complete. Reboot your device and try again</string>
     <string name="active_count_title">Number of times the wakelock was activated:</string>
     <string name="wakeup_count_title">Number of times the wakelock aborted suspend:</string>
     <string name="total_title">Total time this wakelock has been active:</string>
-    <string name="sda_io_scheduler">SDA I/0 scheduler</string>
-    <string name="sde_io_scheduler">SDE I/0 scheduler</string>
-    <string name="sdf_io_scheduler">SDF I/0 scheduler</string>
-    <string name="dm0_io_scheduler">DM-0 I/0 scheduler</string>
-    <string name="mmc_read_ahead_kb">MMC readahead kb</string>
-    <string name="sda_read_ahead_kb">SDA readahead kb</string>
-    <string name="sde_read_ahead_kb">SDE readahead kb</string>
-    <string name="sdf_read_ahead_kb">SDF readahead kb</string>
-    <string name="dm0_read_ahead_kb">DM-0 readahead kb</string>
+    <string name="sda_io_scheduler">SDA I/O scheduler</string>
+    <string name="sde_io_scheduler">SDE I/O scheduler</string>
+    <string name="sdf_io_scheduler">SDF I/O scheduler</string>
+    <string name="dm0_io_scheduler">DM-0 I/O scheduler</string>
+    <string name="mmc_read_ahead_kb">MMC readahead window (KiB)</string>
+    <string name="sda_read_ahead_kb">SDA readahead window (KiB)</string>
+    <string name="sde_read_ahead_kb">SDE readahead window (KiB)</string>
+    <string name="sdf_read_ahead_kb">SDF readahead window (KiB)</string>
+    <string name="dm0_read_ahead_kb">DM-0 readahead window (KiB)</string>
     <string name="supporter_bought_title">Thank you!</string>
-    <string name="supporter_bought_summary">Thank you so much for becoming a FK Kernel Manager Supporter!\n\nAs a constant reminder of your generous support, you\'ll proudly display a Supporter badge banner in the Help menu! And more, clicking the banner gives you access to the amazing custom wallpapers.\n\nThanks again!</string>
+    <string name="supporter_bought_summary">Thank you so much for becoming a FK Kernel Manager Supporter!
+
+As a constant reminder of your generous support, you\'ll proudly display a Supporter badge banner in the Help menu! And more, clicking the banner gives you access to the amazing custom wallpapers.
+
+Thanks again!</string>
     <string name="memeui_thermal_profile">Thermal profile</string>
     <string name="input_boost_enabled">Input boost enabled</string>
     <string name="sched_boost_on_input">Sched boost on input</string>
     <string name="set_brightness_value">Set brightness value</string>
-    <string name="fg_apps">Foreground applications</string>
-    <string name="visible_apps">Visible applications</string>
+    <string name="fg_apps">Foreground apps</string>
+    <string name="visible_apps">Visible apps</string>
     <string name="secondary_server">Secondary server</string>
-    <string name="hidden_apps">Hidden applications</string>
+    <string name="hidden_apps">Hidden apps</string>
     <string name="content_providers">Content providers</string>
-    <string name="empty_apps">Empty applications</string>
+    <string name="empty_apps">Empty apps</string>
     <string name="presets">Presets</string>
     <string name="very_light">Very light</string>
     <string name="light">Light</string>
@@ -565,18 +620,23 @@
     <string name="charging_rapidly">Charging rapidly</string>
     <string name="discharging">Discharging %1$s</string>
     <string name="cant_flash_no_busybox">Flashing can\'t proceed, there seems to be a problem with the built-in busybox. Probably a good idea to contact me on Twitter</string>
-    <string name="api_restriction_storage">Due to severe API restrictions on external storage, we can only use the application cache directory to download your kernels to</string>
+    <string name="api_restriction_storage">Due to severe API restrictions on external storage we can only use the app cache directory to download your kernels to</string>
     <string name="file_not_supported">That isn\'t a valid file, choose either a flashing .zip, boot.img or a shell script to run</string>
     <string name="fully_charged">Fully charged</string>
     <string name="until_full">%1$s for a full charge</string>
-    <string name="cant_open_document">For some reason, your Android version doesn\'t know how to open this :(</string>
+    <string name="cant_open_document">For some reason your Android version doesn\'t know how to open this :(</string>
     <string name="home">Home</string>
     <string name="sd_card">Sdcard</string>
     <string name="show_battery_percentage_icon">Show battery % as a notification icon</string>
     <string name="reset_on_reboot_title">Reset the stats when the device reboots or it\'s shutdown</string>
     <string name="dont_show_this_message_again">Don\'t show this message again</string>
     <string name="manual_flash_help_msg">Show help message</string>
-    <string name="manual_flash_help_msg_content">\nSome notes before you proceed:\n\n· Make sure that you\'re on the latest stable version of Magisk. This won\'t work if you\'re on some other half-assed root solution;\n· Make sure the file isn\'t bigger than 256Mb;\n· If you\'re flashing a zip that wipes or replaces /system or /vendor in any way… well thar be dragons, and I don\'t think you should proceed for safety reasons</string>
+    <string name="manual_flash_help_msg_content">
+Some notes before you proceed:
+
+· Make sure you\'re on the latest stable version of Magisk. This won\'t work if you\'re on some other half-assed root solution;
+· Make sure the file isn\'t bigger than 256Mb;
+· If you\'re flashing a ZIP that wipes/replaces /system or /vendor in any way… well thar be dragons, and I don\'t think you should proceed for safety reasons</string>
     <string name="boot_service_delay_title">Boot service startup delay</string>
     <string name="boot_service">Boot service</string>
     <string name="delay_in_seconds">%1$s seconds</string>
@@ -594,8 +654,8 @@
     <string name="overcommit_ratio">Overcommit ratio</string>
     <string name="laptop_mode">Laptop mode</string>
     <string name="frame_boost_timeout">Frame boost timeout</string>
-    <string name="remove_input_boost_freq_lp">Cluster #1 CPU reset frequency after a boost</string>
-    <string name="remove_input_boost_freq_perf">Cluster #2 CPU reset frequency after a boost</string>
+    <string name="remove_input_boost_freq_lp">Little cluster CPU reset frequency after a boost</string>
+    <string name="remove_input_boost_freq_perf">Big cluster CPU reset frequency after a boost</string>
     <string name="general_stune_boost">General stune boost</string>
     <string name="max_stune_boost">Max stune boost</string>
     <string name="pstore_compress">Pstore compress</string>
@@ -603,8 +663,8 @@
     <string name="memory">Memory</string>
     <string name="system_load">System load: %1$d\%%</string>
     <string name="governor">Governor: %1$s</string>
-    <string name="cluster1_max_freq_value">Cluster #1 max freq: %1$s</string>
-    <string name="cluster2_max_freq_value">Cluster #2 max freq: %1$s</string>
+    <string name="cluster1_max_freq_value">Little cluster max freq: %1$s</string>
+    <string name="cluster2_max_freq_value">Big cluster max freq: %1$s</string>
     <string name="cluster3_max_freq_value">Cluster #3 max freq: %1$s</string>
     <string name="max_freq_value">Max freq: %1$s</string>
     <string name="gpu_load">Usage: %1$s</string>
@@ -625,8 +685,8 @@
     <string name="download_started">Downloading %1$s</string>
     <string name="hp_gain_left">Headphone digital gain: left channel</string>
     <string name="hp_gain_right">Headphone digital gain: right channel</string>
-    <string name="input_boost_general_frequency_lp">Cluster #1 CPU general boost</string>
-    <string name="input_boost_general_frequency_hp">Cluster #2 CPU general boost</string>
+    <string name="input_boost_general_frequency_lp">Little cluster CPU general boost</string>
+    <string name="input_boost_general_frequency_hp">Big cluster CPU general boost</string>
     <string name="value_percentage">%1$d\%%</string>
     <string name="app_search">App search</string>
     <string name="manual_flasher">Manual flasher</string>
@@ -692,22 +752,25 @@
     <string name="edit">Edit</string>
     <string name="discard">exit</string>
     <string name="save_script">Save</string>
-    <string name="script_init">#!/system/bin/sh\n\n</string>
+    <string name="script_init">#!/system/bin/sh
+
+</string>
     <string name="save_your_script">Save your script</string>
     <string name="script_name_hint">eg. foobar.sh</string>
     <string name="script_name_already_exists">A script with this name already exists</string>
     <string name="success">Ran the script with success 👍</string>
     <string name="delete_script">Delete script file</string>
-    <string name="scripts_manager_info">Shell scripts are stored in /sdcard/franco.kernel_updater/scripts/\nImported scripts are copied to that location as well</string>
+    <string name="scripts_manager_info">Shell scripts are stored in /sdcard/franco.kernel_updater/scripts/
+Imported scripts are copied to that location as well</string>
     <string name="flickerfree">Flickerfree</string>
-    <string name="hint_kernel_name">Eg. Kernel_version_1</string>
+    <string name="hint_kernel_name">e.g. Kernel_version_1</string>
     <string name="bug_report_title">Report a bug</string>
     <string name="sleep_vibrate">Vibrate on Sweep2Sleep</string>
     <string name="wake_vibrate">Vibrate on wake</string>
     <string name="sampling">Sampling</string>
     <string name="system_load_placeholder">System load:</string>
-    <string name="cluster1_max_freq_value_placeholder">Cluster #1 max freq:</string>
-    <string name="cluster2_max_freq_value_placeholder">Cluster #2 max freq:</string>
+    <string name="cluster1_max_freq_value_placeholder">Little cluster max freq:</string>
+    <string name="cluster2_max_freq_value_placeholder">Big cluster max freq:</string>
     <string name="cluster3_max_freq_value_placeholder">Cluster #3 max freq:</string>
     <string name="governor_placeholder">Governor:</string>
     <string name="klapse_off">Klapse off</string>
