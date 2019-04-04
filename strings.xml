@@ -93,7 +93,7 @@
     <string name="performance_title">Performance</string>
     <string name="performance_description">Increases frequencies and tunes governors to ramp faster, thus improving performance and reducing jank</string>
     <string name="new_profile_hint">Name</string>
-    <string name="app_info">Version %1$s (%2$d)\nCopyright © 2011–2019\nFrancisco Franco</string>
+    <string name="app_info">Version %1$s (%2$d) Copyright © 2011–2019 Francisco Franco</string>
     <string name="social">Follow the developer</string>
     <string name="rgb_title">Color control</string>
     <string name="rgb_summary">Tune your display\'s colors</string>
@@ -387,12 +387,12 @@
     <string name="since_last_stats_reset">Since the last stats reset</string>
     <string name="screen_off">Screen off</string>
     <string name="screen_on">Screen on</string>
-    <string name="screen_on_time">Time: %s</string>
-    <string name="screen_on_usage">Usage: %s\%%</string>
-    <string name="screen_on_drain">Active drain: %s\%% per hour</string>
-    <string name="screen_off_drain">Idle drain: %s\%% per hour</string>
-    <string name="screen_off_deep_sleep">Deep sleep: %s</string>
-    <string name="screen_off_idle_awake">Awake: %1$s (%2$s\%%)</string>
+    <string name="screen_on_time">Duration</string>
+    <string name="screen_on_usage">Battery drained</string>
+    <string name="screen_on_drain">Active drain</string>
+    <string name="screen_off_drain">Idle drain</string>
+    <string name="screen_off_deep_sleep">Deep sleep</string>
+    <string name="screen_off_idle_awake">Awake</string>
     <string name="reset_stats">Reset stats</string>
     <string name="reset_on_plug_in_title">Reset the stats when the device is plugged in</string>
     <string name="ui_interface">Interface</string>
@@ -725,4 +725,7 @@
     <string name="discharging_no_val">Discharging</string>
     <string name="screen_on_stats">Screen on stats</string>
     <string name="screen_off_stats">Screen off stats</string>
+    <string name="usage_percentage">%s\%%</string>
+    <string name="drain_percentage">%s\%% per hour</string>
+    <string name="idle_awake_percentage">%1$s (%2$s\%%)</string>
 </resources>
