@@ -449,7 +449,7 @@
     <string name="zram_disksize_desc">Size in MiB:</string>
     <string name="zram_state">zRAM state</string>
     <string name="night_shift_warning">Night Shift settings can and might be affected by the manufacturer\'s implementations. For example Night Shift won\'t work on the OnePlus 6 unless you have Adaptive Display enabled. LiveDisplay by LineageOS might affect this feature too. Just be wary of this</string>
-    <string name="battery_monitor_service_not_running">You need to have the Battery Monitor service running to gather stats. Go to System Health -> Battery Monitor and enable it</string>
+    <string name="battery_monitor_service_not_running">You need to have the Battery Monitor service running to gather stats</string>
     <string name="min_gpu_freq">Minimum GPU frequency</string>
     <string name="dynamic_stune_boost">Dynamic stune boost</string>
     <string name="stune_boost">Stune boost</string>
@@ -723,9 +723,5 @@
     <string name="screen_on_notif">Screen on: %1$s · %2$d%%</string>
     <string name="screen_off_notif">Screen off: %1$s · %2$d%%</string>
     <string name="discharging_no_val">Discharging</string>
-    <string name="screen_on_stats">Screen on stats</string>
-    <string name="screen_off_stats">Screen off stats</string>
-    <string name="usage_percentage">%s\%%</string>
-    <string name="drain_percentage">%s\%% per hour</string>
-    <string name="idle_awake_percentage">%1$s (%2$s\%%)</string>
+    <string name="stats">Stats</string>
 </resources>
