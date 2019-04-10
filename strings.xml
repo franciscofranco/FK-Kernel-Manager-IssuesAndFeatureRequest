@@ -12,10 +12,10 @@
     <string name="auto_flash">Flash</string>
     <string name="download_zip">Download ZIP</string>
     <string name="changelog_title">Changelog</string>
-    <string name="max_cpu_freq">Minimum CPU frequency</string>
-    <string name="min_cpu_freq">Maximum CPU frequency</string>
-    <string name="cluster_max_cpu_freq">%1$s minimum CPU frequency</string>
-    <string name="cluster_min_cpu_freq">%1$s maximum CPU frequency</string>
+    <string name="max_cpu_freq">Maximum CPU frequency</string>
+    <string name="min_cpu_freq">Minimum CPU frequency</string>
+    <string name="cluster_max_cpu_freq">%1$s maximum CPU frequency</string>
+    <string name="cluster_min_cpu_freq">%1$s minimum CPU frequency</string>
     <string name="cpu_governor">CPU governor</string>
     <string name="no_backups">No backups found</string>
     <string name="auto_flash_and_reboot">Reboot after flashing</string>
@@ -30,8 +30,8 @@
     <string name="disable_per_app_modes_toast_title">Status messages</string>
     <string name="disable_per_app_modes_toast_summary">A short toast message when a profile is applied or disabled</string>
     <string name="cpu_temp_notification_title">Show notification</string>
-    <string name="cpu_temp_notification_summary_on">Show the CPU temperaure in a notification</string>
-    <string name="cpu_temp_notification_summary_off">Show the CPU temperaure in a notification</string>
+    <string name="cpu_temp_notification_summary_on">Show the CPU temperature in a notification</string>
+    <string name="cpu_temp_notification_summary_off">Show the CPU temperature in a notification</string>
     <string name="cpu_temperature_type_title">Unit</string>
     <string name="cpu_temperature_type_summary_celsius">Celsius (°C)</string>
     <string name="downloading">Downloading r%1$d</string>
