@@ -727,7 +727,6 @@
     <string name="fk_available_to_update_not_installed">r%1$d is available and ready to be flashed</string>
     <string name="fk_installed_version_new_available">Update available!</string>
     <string name="xda_thread">XDA thread</string>
-    <string name="one_plus6t_xda_url">https://forum.xda-developers.com/oneplus-6t/development/kernel-francokernel-r14-26th-march-t3915482</string>
     <string name="wake_boost_duration">Wake boost duration</string>
     <string name="max_boost_freq_lp">Little cluster max boost frequency</string>
     <string name="max_boost_freq_hp">Big cluster max boost frequency</string>
