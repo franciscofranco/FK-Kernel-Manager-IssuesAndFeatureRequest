@@ -277,8 +277,7 @@
     <string name="kernel_flasher">Flasher</string>
     <string name="special_contributors">Special contributors</string>
     <string name="osm0sis_summary">Wrote the current version of the auto-flasher feature (probably the only implementation in the world) and developer of the popular AnyKernel2 flashing mechanism. Without his contributions this app\'s primary feature wouldn\'t be possible</string>
-    <string name="hbm_description">High brightness mode allows the display\'s brightness to go above the maximum stock value.\nThis is particularly useful in direct sunlight, although it shouldn\'t be used for long periods since it increases the chance for burn-in on OLED displays and consumes way more battery</string>
-    <string name="auto_hbm_description">The automatic feature will analyze the environment ambient light and activate high brightness mode if your surroundings are brighter than the threshold you set. It automatically turns off if the light is below it</string>
+    <string name="auto_hbm_description">High brightness mode allows the display\'s brightness to go above the maximum stock value.\nThis is particularly useful in direct sunlight, although it shouldn\'t be used for long periods since it increases the chance for burn-in on OLED displays and consumes way more battery.\n\nThe automatic feature will analyze the environment ambient light and activate high brightness mode if your surroundings are brighter than the threshold you set. It automatically turns off if the light is below it</string>
     <string name="rationale_write_storage_permission">This app needs permission to write into the internal sdcard to function properly</string>
     <string name="night_shift_channel">Controls Night Shift goes on or off</string>
     <string name="per_app_profiles_channel">Detects which app is in the foreground and applies your Per-app profiles accordingly</string>
@@ -566,7 +565,7 @@
     <string name="discharging">Discharging %1$s</string>
     <string name="cant_flash_no_busybox">Flashing can\'t proceed, there seems to be a problem with the built-in busybox. Probably a good idea to contact me on Twitter</string>
     <string name="api_restriction_storage">Due to severe API restrictions on external storage we can only use the app cache directory to download your kernels to</string>
-    <string name="file_not_supported">That isn\'t a valid file, choose either a flashing .zip, boot.img or a shell script to run</string>
+    <string name="file_not_supported">That isn\'t a valid file, choose either a flashing .zip or boot image</string>
     <string name="fully_charged">Fully charged</string>
     <string name="until_full">%1$s for a full charge</string>
     <string name="cant_open_document">For some reason your Android version doesn\'t know how to open this :(</string>
@@ -615,9 +614,9 @@
     <string name="uptime">Uptime: %1$s</string>
     <string name="deep_sleep">Deep sleep: %1$s (%2$d\%%)</string>
     <string name="system">System</string>
-    <string name="total_memory">Total memory: %1$d Mb</string>
-    <string name="free_memory">Free memory: %1$d Mb (%2$d\%%)</string>
-    <string name="used_memory">Used memory: %1$d Mb (%2$d\%%)</string>
+    <string name="total_memory">Total memory: %1$d MiB</string>
+    <string name="free_memory">Free memory: %1$d MiB (%2$d\%%)</string>
+    <string name="used_memory">Used memory: %1$d MiB (%2$d\%%)</string>
     <string name="battery_percentage">Charge level: %1$d\%%</string>
     <string name="battery_status">Status: %1$s</string>
     <string name="battery_temperature">Temperature: %1$s</string>
@@ -630,15 +629,14 @@
     <string name="hp_gain_right">Headphone digital gain: right channel</string>
     <string name="input_boost_general_frequency_lp">Little cluster CPU general boost</string>
     <string name="input_boost_general_frequency_hp">Big cluster CPU general boost</string>
-    <string name="value_percentage">%1$d\%%</string>
     <string name="app_search">App search</string>
     <string name="manual_flasher">Manual flasher</string>
     <string name="flasher_options">Flasher options</string>
-    <string name="fk_not_installed">Not installed</string>
-    <string name="fk_installed_version">Installed: r%1$d</string>
+    <string name="fk_not_installed">FK is not installed</string>
+    <string name="fk_installed_version">You\'re running r%1$d</string>
     <string name="franco_kernel">Franco Kernel</string>
-    <string name="you_are_up_to_date">You\'re up-to-date</string>
-    <string name="fk_available_to_update">New r%1$d is available!</string>
+    <string name="you_are_up_to_date">The kernel is up-to-date</string>
+    <string name="fk_available_to_update">New r%1$d is ready to be flashed!</string>
     <string name="last_fk_check">Checked %1$s</string>
     <string name="scheduler">Scheduler</string>
     <string name="klapse">Klapse</string>
@@ -724,4 +722,13 @@
     <string name="screen_off_notif">Screen off: %1$s · %2$d%%</string>
     <string name="discharging_no_val">Discharging</string>
     <string name="stats">Stats</string>
+    <string name="battery_monitor_widget">Battery monitor widget</string>
+    <string name="copied_path_to_clipboard">Copied the full path to the clipboard</string>
+    <string name="fk_available_to_update_not_installed">r%1$d is available and ready to be flashed</string>
+    <string name="fk_installed_version_new_available">Update available!</string>
+    <string name="xda_thread">XDA thread</string>
+    <string name="one_plus6t_xda_url">https://forum.xda-developers.com/oneplus-6t/development/kernel-francokernel-r14-26th-march-t3915482</string>
+    <string name="wake_boost_duration">Wake boost duration</string>
+    <string name="max_boost_freq_lp">Little cluster max boost frequency</string>
+    <string name="max_boost_freq_hp">Big cluster max boost frequency</string>
 </resources>
