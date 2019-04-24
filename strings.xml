@@ -195,7 +195,7 @@
     <string name="display_profile_name_exists">There\'s already a profile with that name</string>
     <string name="status">Status</string>
     <string name="restore_the_defaults">Restore to default</string>
-    <string name="haptic_vibration_strength">Haptic vibration level</string>
+    <string name="haptic_vibration_strength">Haptic vibration strength</string>
     <string name="hp_amp_gain">Headphones power amp gain</string>
     <string name="earpiece_gain">Earpiece gain</string>
     <string name="microphone_gain">Microphone gain</string>
@@ -212,7 +212,7 @@
     <string name="android_battery_saver_summary_on">Enable Battery Saver when battery profile is active</string>
     <string name="battery_labs_title">Tips</string>
     <string name="battery_life_labs_description">Simple suggestions &amp; hints to improve your battery life.\nTap the cards and menus for more information.</string>
-    <string name="cpu_underclock">Underclock the CPU</string> <!-- STOPSHIP TODO -->
+    <string name="cpu_underclock">Underclock the CPU</string>
     <string name="cpu_underclock_description">Lowering the CPU clocks will greatly increase your screen on time at the expense of performance. Most of the device\'s operations aren\'t really CPU intensive so lowering it at least 25% is enough to greatly reduce power consumption.\nThere are several instances in which this will show the device as \"underclocked\" even though you haven\'t applied this previously, the most notable being thermal throttling (if this is the case you won\'t be able to restore to the default clocks, your device handles it for you automatically), or your rom/kernel has underclocked the CPU by default.</string>
     <string name="apply">Apply</string>
     <string name="apply_percentage">Apply %1$d%% lower clocks</string>
@@ -456,7 +456,7 @@
     <string name="s2w">Sweep to wake</string>
     <string name="s2s">Sweep to sleep</string>
     <string name="gesture_vib_strength">Gesture vibration strength</string>
-    <string name="show_stdout_summary">Dialog with an auto-updating flashing log. Particularly useful for debugging</string>
+    <string name="show_stdout_summary">Dialog with an auto-updating flashing log. Particularly useful for debugging.\nLogs are automatically saved into /sdcard/franco.kernel_updater/logs/</string>
     <string name="show_stdout_title">Show logs when flashing</string>
     <string name="show_amp_voltage_title">Show charging amperage and wattage</string>
     <string name="show_amp_voltage_tip">Amperage and voltage depends on the charger &amp; cable that you\'re using. These charging values can also be affected by your usage, device heat and/or battery temperature. This feature simply reads the values from the kernel, but they might not a 100% accurate representation of the real electricity current so take these as an estimation.\nIf for some reason these stats don\'t show up then it\'s likely your device has different paths. Contact me and we\'ll figure it out together</string>
@@ -535,11 +535,11 @@
     <string name="sde_io_scheduler">SDE I/O scheduler</string>
     <string name="sdf_io_scheduler">SDF I/O scheduler</string>
     <string name="dm0_io_scheduler">DM-0 I/O scheduler</string>
-    <string name="mmc_read_ahead_kb">MMC readahead window (KiB)</string>
-    <string name="sda_read_ahead_kb">SDA readahead window (KiB)</string>
-    <string name="sde_read_ahead_kb">SDE readahead window (KiB)</string>
-    <string name="sdf_read_ahead_kb">SDF readahead window (KiB)</string>
-    <string name="dm0_read_ahead_kb">DM-0 readahead window (KiB)</string>
+    <string name="mmc_read_ahead_kb">MMC readahead window</string>
+    <string name="sda_read_ahead_kb">SDA readahead window</string>
+    <string name="sde_read_ahead_kb">SDE readahead window</string>
+    <string name="sdf_read_ahead_kb">SDF readahead window</string>
+    <string name="dm0_read_ahead_kb">DM-0 readahead window</string>
     <string name="supporter_bought_title">Thank you!</string>
     <string name="supporter_bought_summary">Thank you so much for becoming a FK Kernel Manager Supporter!\n\nAs a constant reminder of your generous support, you\'ll proudly display a Supporter badge banner in the Help menu! And more, clicking the banner gives you access to the amazing custom wallpapers.\n\nThanks again!</string>
     <string name="memeui_thermal_profile">Thermal profile</string>
@@ -730,4 +730,14 @@
     <string name="wake_boost_duration">Wake boost duration</string>
     <string name="max_boost_freq_lp">Little cluster max boost frequency</string>
     <string name="max_boost_freq_hp">Big cluster max boost frequency</string>
+    <string name="adreno_idler">Adreno idler</string>
+    <string name="share">Share</string>
+    <string name="manual_flash_help_msg_title">Show manual flasher help message</string>
+    <string name="manual_flash_help_msg_summary">Information about how this feature works</string>
+    <string name="entropy_available">Entropy available</string>
+    <string name="entropy_poolsize">Entropy poolsize</string>
+    <string name="entropy_read_wakeup_threshold">Entropy read wakeup threshold</string>
+    <string name="entropy_write_wakeup_threshold">Entropy write wakeup threshold</string>
+    <string name="entropy">Entropy: %1$s/%2$s</string>
+    <string name="vibration">Vibration</string>
 </resources>
