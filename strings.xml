@@ -598,6 +598,7 @@
     <string name="frame_boost_timeout">Frame boost timeout</string>
     <string name="remove_input_boost_freq_lp">Little cluster CPU reset frequency after a boost</string>
     <string name="remove_input_boost_freq_perf">Big cluster CPU reset frequency after a boost</string>
+    <string name="remove_input_boost_freq">CPU reset frecuency after a boost</string>
     <string name="general_stune_boost">General stune boost</string>
     <string name="max_stune_boost">Max stune boost</string>
     <string name="pstore_compress">Pstore compress</string>
@@ -730,6 +731,7 @@
     <string name="wake_boost_duration">Wake boost duration</string>
     <string name="max_boost_freq_lp">Little cluster max boost frequency</string>
     <string name="max_boost_freq_hp">Big cluster max boost frequency</string>
+    <string name="max_boost_freq">CPU max boost frequency</string>
     <string name="adreno_idler">Adreno idler</string>
     <string name="share">Share</string>
     <string name="manual_flash_help_msg_title">Show manual flasher help message</string>
